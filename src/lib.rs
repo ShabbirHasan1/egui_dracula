@@ -117,12 +117,12 @@ pub fn set_theme(ctx: &Context) {
         selection: Selection {
             bg_fill: SELECTION,
             stroke: Stroke {
-                color: BACKGROUND_DARK,
+                color: FOREGROUND,
                 ..default.selection.stroke
             },
         },
         hyperlink_color: PINK,
-        faint_bg_color: BACKGROUND_DARK,
+        faint_bg_color: BACKGROUND,
         extreme_bg_color: BACKGROUND_DARKER,
         code_bg_color: BACKGROUND_DARKER,
         error_fg_color: RED,
@@ -133,7 +133,7 @@ pub fn set_theme(ctx: &Context) {
         },
         window_fill: BACKGROUND,
         window_stroke: Stroke {
-            color: BACKGROUND_DARK,
+            color: BACKGROUND_LIGHT,
             ..default.window_stroke
         },
         panel_fill: BACKGROUND_DARK,
