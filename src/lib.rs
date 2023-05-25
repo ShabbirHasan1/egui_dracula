@@ -141,6 +141,7 @@ pub fn set_theme(ctx: &Context) {
             color: BACKGROUND_DARK,
             ..default.popup_shadow
         },
+        collapsing_header_frame: true,
         ..default
     });
 }
